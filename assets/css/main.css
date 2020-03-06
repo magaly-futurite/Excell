@@ -1,0 +1,2482 @@
+html, body { font-family: 'maduri_regular';}
+@font-face {
+    font-family: 'maduri_regular';
+    src: url("../fonts/HindMadurai-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'maduri_bold';
+    src: url("../fonts/HindMadurai-SemiBold.ttf") format("opentype");
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                                       HEADER                                       */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+/*
+color verde: #59ff12;
+*/
+.secHeight2_movil{
+    display: none;
+}
+.pd0{
+    padding: 0;
+}
+.navbar {
+    position: absolute;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+    border-bottom: 1px solid white !important;
+}
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.navbar-default {
+    border-color: transparent;
+    background: transparent !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #59ff12;
+    font-size: 18px;
+}
+.navbar-right{
+	padding: 10px !important;
+}
+.navbar-right li{
+	padding-right: 15px;
+}
+.interiores .navbar-default {
+    border-color: transparent;
+    background: black !important;
+}
+.interiores .navbar {
+    position: relative !important;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    width: 100%;
+    border-radius: 0px !important;
+    border-bottom: 1px solid white !important;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                                       HOME                                         */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.h_banner{
+    background: url(../img/home/banner.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+.h_banner .top{
+    padding-top: 250px;
+}
+.h_banner .titulo_verde{
+    color: #59ff12;
+    font-size: 25px;
+}
+.h_banner .parrafo{
+    color: white;
+    font-size: 30px;
+}
+.top_form{
+	padding-top: 120px;
+}
+.fondo_formulario {
+    background: black;
+    width: 80%;
+    height: 600px;
+}
+.top_form .entrega {
+    color: #59ff12;
+    font-size: 35px;
+    font-family: 'maduri_bold';
+    text-align: center;
+}
+.top_form .oficina{
+	color: white;
+	font-size: 20px;
+	font-family: 'maduri_bold';
+}
+.top_form .padd{
+    padding: 25px;
+}
+.top_input{
+	padding-top: 10px;
+}
+.h_banner .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #59ff12;
+    background-color: transparent !important;
+    background-image: none;
+    border: 1px solid #59ff12 !important;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    z-index: 0;
+}
+.linea_btm {
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.top_boton {
+    padding-top: 20px;
+    float: right;
+}
+.button_enviar{
+    background: #59ff12;
+    border: 1px solid #59ff12;
+    color: black;
+    font-family: 'maduri_bold';
+    font-size: 20px;
+    width: 100%;
+}
+/*SEC02*/
+.h_sec02{
+	padding-top: 80px;
+}
+.h_sec02 .titulo{
+    color: #5c5c5c;
+    font-size: 35px;
+    font-family: 'maduri_bold';
+}
+.titulo{
+    color: #5c5c5c;
+    font-size: 35px;
+    font-family: 'maduri_bold';
+    text-align: center;
+}
+.titulo_renta_autos{
+    color: #5c5c5c;
+    font-size: 30px;
+    font-family: 'maduri_regular';
+    padding-top: 50px;
+}
+.h_sec02 .parrafo{
+    color: #5c5c5c;
+    font-size: 17px;
+}
+.h_sec03 .parrafo{
+    font-size: 18px;
+}
+/*SEC03*/
+.h_sec03{
+    padding-top: 50px;
+}
+.texto_a_mostrar{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.h_sec03 .img_monterrey{
+    background: url(../img/home/cerro.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.h_sec03 .img_gdl{
+    background: url(../img/home/minerva.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.h_sec03 .autos{
+    height: 70px;
+}
+.h_sec03 .logo_carro_top{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 90%;
+    text-align: right;
+    padding-top: 20px;
+    margin: 0px;
+}
+.img_monterrey .top{
+    padding-top: 150px;
+}
+.img_gdl .top{
+    padding-top: 150px;
+}
+.h_sec03 .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.buttonCarros{
+    background: transparent;
+    border: 1px solid transparent;
+}
+/*SEC04*/
+.h_sec04{
+    background: #e3e3e3;
+    background-size: cover;
+    width: 100%;
+    height: 400px;    
+}
+.h_sec04 .titulo{
+    text-align: center;
+    color: #505050;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family: 'maduri_bold';
+}
+.h_sec04  .carro_mas{
+    width: 100%;
+    height: 200px;
+}
+.h_sec04  .nombre_destacado{
+    color: #505050;
+    font-size: 20px;
+    text-align: center;
+}
+/*SEC05*/
+.h_sec05{
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+.h_sec05 .thumbnail {
+    display: block;
+    padding: 3px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    margin: 30px;
+}
+.titulo_de_carros {
+    font-family: 'maduri_bold';
+    font-size: 30px;
+    color: #505050;
+    margin-left: 20px;
+}
+.h_sec05 .titulo{
+    text-align: center;
+    color: #505050;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family: 'maduri_bold';
+}
+.h_sec05 .parrafo_slider{
+    margin-left: 50px;
+    font-size: 17px;
+}
+.h_sec05  .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #00e100;
+    text-indent: -9999px;
+    display: block;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 5px !important;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px !important;
+}
+.h_sec05  .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: white;
+    border: 1px solid #00e100;
+}
+.h_sec05  .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: -10px !important;
+    width: 100%;
+}
+.h_sec05  .bx-wrapper {
+    position: relative;
+    margin-bottom: -5px;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 0px #ccc !important;
+    border: 0px solid #fff;
+    background: #fff;
+}
+/*SEC06*/
+.h_sec06{
+    background: url(../img/home/banner_verde.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.h_sec06 .titulo {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'maduri_bold';
+}
+.h_sec06 .button_contac{
+    background: white;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+    padding-top: 10px;
+}
+input{
+  width:100px;
+}
+.ui-timepicker-container {
+}
+
+.ui-timepicker,
+.ui-timepicker-viewport {
+  box-sizing: content-box;
+  height: 205px;
+}
+
+.ui-timepicker {
+  list-style: none;
+  text-align: center
+}
+
+.ui-timepicker-viewport {
+  padding: 0px;
+  overflow-x: hidden
+}
+
+.ui-timepicker-standard {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.9em;
+  background-color: #FFF;
+  border: 1px solid #AAA;
+  color: #222;
+}
+
+.ui-timepicker-standard a {
+  border: 1px solid transparent;
+  color: #222;
+  display: block;
+  text-decoration: none
+}
+.excellBtn_home1{
+    color: #070707;
+    background: #59ff12;
+    border: 1px solid #59ff12;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+.ui-timepicker-standard .ui-state-hover {
+  background-color: #DADADA;
+  color: #212121
+}
+
+.ui-timepicker-standard .ui-menu-item {
+}
+
+.ui-timepicker-corners,
+.ui-timepicker-corners .ui-corner-all {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                          TIPOS DE CARROS                                           */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.sec_tipos{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.sec_dos_tipos .form-control {
+    display: block;
+    font-size: 28px;
+    color: #7d7d7d;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    text-align: center;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+}
+.tipos_autos{
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'maduri_bold';
+}
+.tipo_selecciona{
+    color: #7f7878;
+    text-align: center;
+    font-size: 18px;
+}
+.sec_dos_tipos .titulo_carro {
+    text-align: center;
+    color: #7d7d7d;
+    font-size: 28px;
+    font-family: 'maduri_bold';
+    padding-top: 0px;
+}
+.detalles_carro .texto {
+    font-size: 18px;
+}
+.detalles_carro .person{
+    font-weight: 700;
+}
+.sec_dos_tipos .text_center{
+    text-align: center;
+}
+.sec_dos_tipos .titulo01{
+    color: gray;
+    font-size: 18px;
+}
+.sec_dos_tipos .precio{
+    color: #0c6fff;
+    font-size: 18px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: -20%;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.modal .form-control {
+    display: block;
+    font-size: 15px;
+    color: #7d7d7d;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #7d7d7d;
+    border-radius: 0px;
+    text-align: center;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    width: 40% !important;
+}
+.sec_dos_tipos .titulo02 {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-family: 'maduri_bold';
+}
+.sec_dos_tipos .btomm{
+    padding-top: 50px;
+}
+.sec_dos_tipos{
+    padding-bottom: 50px;
+}
+.btomm .alto_heigh{
+    height: 50px;
+}
+.sec_dos_tipos .text_center02{
+    text-align: center;
+    margin-top: -5px;
+}
+.tipo1 {
+    border: 1px solid #aaa1a1;
+    border-radius: 5px;
+    background: transparent;
+    padding-bottom: 60px;
+    min-height: 400px;
+}
+.tipo2{
+    border: 1px solid #aaa1a1;
+    border-radius: 5px;
+    background: #ddd;
+    padding-bottom: 30px;
+    min-height: 400px;
+}
+.sec_dos_tipos .flecha{
+    height: 30px;
+}
+.sec_dos_tipos .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.sec_dos_tipos  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: gray;
+}
+.sec_dos_tipos .button_tipos{
+    background: #59ff12;
+    border: 1px solid #59ff12;
+    width: 100%;
+    color: black;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.sec_dos_tipos .button_tipos:hover {
+    background: #59ff12;
+    border: 2px solid black;
+    width: 100%;
+    color: black;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                          DETALLES DE CARROS                                        */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.detalles_carro{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.detalles_carro .fondo{
+    background: #ddd;
+    width: 100%;
+    height: 300px;
+}
+.detalles_carro .fondo {
+    background: #ddd;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #aaa1a1;
+    border-radius: 10px;
+}
+.detalles_carro .top_new_img{
+    margin-top: 14px;
+}
+.detalles_carro .titulo{
+    color: #0064ff;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.detalles_carro hr {
+    margin-top: -10px !important;
+    margin-bottom: 10px !important;
+    border: 0;
+    border-top: 1px solid #cbcbcb;
+}
+.detalles_carro .fotos_peq{
+    position: absolute;
+    top: 90%;
+    margin-left: -100px;
+}
+.detalles_carro .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.detalles_carro .carro{
+    height: 180px;
+    margin-left: -180px;
+}
+.detalles_carro .icon_n{
+    height: 30px;
+}
+.detalles_carro .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.detalles_carro .titulo02{
+    text-align: center;
+    color: gray;
+    font-size: 19px;
+}
+.linea01{
+    border-top: 1px solid #aaa1a1;
+}
+.linea02{
+    border-top: 1px solid #aaa1a1;
+    border-left: 1px solid #aaa1a1;
+}
+.reser_titulo {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.detalles_carro .parraf {
+    color: gray;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.sec2_titulo{
+    font-family: 'maduri_bold';
+    font-size: 20px;
+    text-align: center;
+}
+.sec_02 .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-top: 1px solid #ddd !important;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    border-bottom: 1px solid #ddd !important;
+}
+.sec_03{
+    width: 100%;
+    background-size: cover;
+}
+.fondo01{
+    background: #f0f0f0;
+}
+.sec_03 .fondo01{
+    background: #f0f0f0;
+}
+.sec_03 .fondo02{
+    background: #f7f6f6;
+}
+.sec_03 .titulo {
+    font-size: 40px;
+    padding-top: 50px;
+}
+.sec_03 .parrafo{
+    font-size: 18px;
+}
+.sec_03 ul li{
+    color: #585656;
+}
+.fondo02 .segundo_titulo{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.fondo02 .uno{
+    font-family: 'maduri_bold';
+    font-size: 25px;
+}
+.sec_03 .dos{
+    font-family: 'maduri_bold';
+    font-size: 18px;
+    color: grey;
+}
+.fondo02 .form-control {
+    width: 80% !important;
+    background-color: transparent;
+    border: 0px solid #f0f0f0;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+    border-bottom: 1px solid #ccc;
+    outline: none !important;
+    color: #0064ff;
+    font-size: 20px;
+}
+.fondo02 .cont {
+    background: #59ff12;
+    border: 1px solid #59ff12;
+    width: 60%;
+    font-family: 'maduri_bold';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.segundo_parte {
+    padding-bottom: 50px;
+}
+.segundo_parte .form-control {
+    height: 25px !important;
+    width: 80% !important;
+    background-color: transparent;
+    border: 0px solid #f0f0f0;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075) !important;
+    border-bottom: 1px solid #ccc;
+    outline: none !important;
+    color: #0064ff;
+}
+.fondo03 .icon_form{
+    height: 100px;
+}
+.fondo03 .nombre{
+    text-align: center;
+    font-size: 18px;
+}
+.fondo03 .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                                 REGISTRO                                           */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */ 
+.paso_cuatro .titulo{
+    font-size: 30px;
+    height: 80px;
+    padding-top: 20px;
+}
+.paso_cuatro .textto_input {
+    color: gray;
+    font-size: 18px;
+    font-family: 'maduri_bold';
+    height: 100px;
+}
+.paso_cuatro .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0064ff;
+    background-color: #f0f0f0;
+    background-image: none;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border-bottom: 2px solid #ccc;
+    outline: none !important;
+    margin-top: -15px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                                   FOOTER                                           */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+footer {
+    background: #1c1c1c;
+    width: 100%;
+    background-size: cover;
+    min-height: 50px;
+}
+footer .top{
+    padding-top: 100px;
+}
+footer .titulo{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'maduri_bold';
+}
+footer .info_direccion {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+footer .info_direccion a{
+    color: #fff;
+    font-size: 18px;
+}
+footer .info_direccion a:hover{
+    color: #00f400;
+    font-size: 18px;
+}
+footer .top_dos{
+    padding-top: 50px;
+}
+footer .navbar-brand, .navbar-nav > li > a {
+    text-shadow: 0 0px 0 rgba(255, 255, 255, .25);
+}
+footer ul {
+    list-style: none;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:hover{
+    color: #00f400;
+}
+footer ul li {
+    margin-left: 50px;
+}
+.line_footer{
+    background-size: cover;
+    background: black;
+    width: 100%;
+    height: 350px;
+}
+.line_footer .top{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.line_footer ul li{
+    font-size: 17px;
+    list-style: none;
+    color: white;
+}
+.line_footer ul li a {
+    color: white;
+}
+.line_footer ul li a:hover {
+    color: #00f400;
+}
+.line_footer .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #000 !important;
+    border: 1px solid #000 !important;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.imagenes li img{
+    height: 30px;
+}
+.line_text01{
+    font-size: 17px;
+    color: #fff;
+    margin-top: -10px;
+}
+.line_text03 a{
+    font-size: 17px;
+    color: #fff;
+}
+.line_text02{
+    font-size: 17px;
+    color: #fff;
+}
+.line_text03 {
+    font-size: 17px;
+    color: #fff;
+    text-align: right;
+}
+.mostrar{
+    display: block;
+    background-color: rgba(29, 28, 28, 0.8)!important;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+}
+.btn_cerrar {
+    background: transparent;
+    float: right;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    margin-left: 80%;
+}
+.renta_carros_mty{
+    background: url(../img/home/cerro.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.renta_carros_gdl{
+    background: url(../img/home/minerva.png) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.h_sec03 .titulo2{
+    color: white;
+    font-size: 35px;
+    font-family: 'maduri_bold';
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.h_sec03 .excellBtn_home {
+    color: #070707;
+    background: #59ff12;
+    border: 1px solid #59ff12;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-top: 50px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                     Renta de Autos en Monterrey                                    */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.autos_mty_Sec01{
+    background: url(../img/rentamty/banner1.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.autos_mty_Sec01 .top{
+    padding-top: 130px;
+}
+.autos_mty_Sec01 .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.autos_mty_Sec01 .subTitulo {
+    text-align: center;
+    color: #59ff12;
+    font-size: 30px;
+}
+.autos_mty_Sec02 {
+    background: #f6faff;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.autos_mty_Sec02 .top{
+    padding-top: 50px;
+}
+.autos_mty_Sec02 .parrafo{
+    text-align: center;
+    font-size: 22px;
+}
+.autos_mty_Sec02 .parrafo1{
+    text-align: center;
+    font-size: 22px;
+}
+.autos_mty_Sec03 .titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #5c5c5c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.autos_mty_Sec03 .fondo_imagen {
+    background: #f7f7f7;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #d9d3d3 !important;
+}
+.titulo_carro {
+    color: #505050;
+    font-size: 30px;
+    font-family: 'maduri_bold';
+    margin-left: 50px;
+}
+.autos_mty_Sec03  .thumbnail {
+    border: 1px solid #fff;
+}
+.autos_mty_Sec03 .parrafoCarro{
+    margin-left: 60px;
+    width: 85%;
+    font-size: 18px;
+}
+.autos_mty_Sec03 .inforTextos {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.autos_mty_Sec03 .icon_n {
+    height: 30px;
+}
+.autos_mty_Sec03 .person {
+    font-size: 22px;
+    margin-left: 10px;
+}
+.autos_mty_Sec03 .btmInfo{
+    padding-bottom: 10px;
+}
+.autos_mty_Sec03 .extras {
+    color: gray;
+    font-size: 20px;
+    font-family: 'maduri_bold';
+}
+.autos_mty_Sec03 .precio {
+    color: #0c6fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.autos_mty_Sec03 .por_dia {
+    color: gray;
+    font-size: 22px;
+    font-weight: 400 !important;
+}
+.sec04_fotos{
+    background: #d6dadf;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.sec04_fotos .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #d6dadf;
+    border: 1px solid #d6dadf;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.buscados_titul{
+    text-align: center;
+    font-family: 'maduri_bold';
+    font-size: 20px;
+    padding-top: 30px;
+}
+.sec04_fotos .img_carros{
+    height: 130px !important;
+}
+.sec04_fotos .titulo {
+    color: #4d5054;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                     Renta de Autos en Guadalajara                                  */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.autos_gdl_Sec01{
+    background: url(../img/rentamty/banner2.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.autos_gdl_Sec01 .top{
+    padding-top: 130px;
+}
+.autos_gdl_Sec01 .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.autos_gdl_Sec01 .subTitulo {
+    text-align: center;
+    color: #59ff12;
+    font-size: 30px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                                  Renta de Autos                                    */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.renta_autos{
+    background: url(../img/rentamty/banner3.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.renta_autos .top{
+    padding-top: 130px;
+}
+.renta_autos .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.renta_autos .subTitulo {
+    text-align: center;
+    color: #59ff12;
+    font-size: 30px;
+}
+.subtituloParraf{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.renta_autos_sec02 .titulo{
+    color: #5c5c5c;
+    font-size: 40px;
+}
+.renta_autos_sec02 .check{
+    height: 30px;
+}
+.renta_autos_sec02 ul li {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5c5c5c;
+    list-style: none;
+}
+.parrafDos {
+    font-size: 18px;
+    padding-top: 20px;
+}
+.renta_autos_sec02 .tituloDods {
+    color: #5c5c5c;
+    font-size: 40px;
+    padding-top: 80px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                              Renta de camionetas                                   */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.renta_camionetas{
+    background: url(../img/rentamty/banner4.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.renta_camionetas .top{
+    padding-top: 130px;
+}
+.renta_camionetas .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.renta_camionetas .subTitulo {
+    text-align: center;
+    color: #59ff12;
+    font-size: 30px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                              requisitos                                            */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.requisitos_banner{
+    background: url(../img/rentamty/banner5.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.requisitos_banner .top{
+    padding-top: 130px;
+}
+.requisitos_banner .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.pregunta {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.requisitos_sec02 {
+    background: #f6f6f6;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.requisitos_sec02 .tituloDods {
+    color: #5c5c5c;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+}
+.requisitos_sec02 .prrf{
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.requisitos_sec02 .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.requisitos_sec02 .icon{
+    height: 150px;
+}
+.requisitos_sec02 .text_icon {
+    color: #5c5c5c;
+    text-align: center;
+    font-size: 18px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-**-**-*-**-*-*--*--*-*-*- */
+/*                              Servicios                                             */
+/* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**-*-*-*-*-*--*-*- */
+.servicios_banner{
+    background: url(../img/rentamty/banner6.jpg) left top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+}
+.servicios_banner .top{
+    padding-top: 130px;
+}
+.servicios_banner .titulo {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+.prrf_serv{
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.servicios_sec2 {
+    background-size: cover;
+    background: #f6f6f6;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+.servicios_sec2 .titulo{
+    color: #5c5c5c;
+    font-size: 40px;
+}
+.servicios_sec2 .top {
+    padding-top: 50px;
+    height: 420px;
+}
+.servicios_sec2 .parrafoDeImagenes{
+    color: #5c5c5c;
+    font-size: 18px;
+    padding-top: 5%;
+}
+.servicios_sec2 .topFlcha{
+    padding-top: 150px !important;
+}
+.servicios_sec2 .secHeight{
+    height: 400px;
+}
+.servicios_sec2 .secHeight2{
+    height: 450px;
+}
+.tituloContactos{
+    color: #5c5c5c;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+.formularContacto{
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 700;
+}
+.formularContacto .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0064ff;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border-bottom: 1px solid #a7a4a4;
+}
+.formularContacto .top_input{
+    padding-bottom:30px;
+}
+.prefooter_contactos{
+    background: #1c1c1c;
+    width: 100%;
+    background-size: cover;
+}
+.prefooter_contactos .top{
+    padding-top: 100px;
+}
+.prefooter_contactos .titulo{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'maduri_bold';
+}
+.prefooter_contactos .info_direccion {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.prefooter_contactos .info_direccion a{
+    color: #fff;
+    font-size: 18px;
+}
+.prefooter_contactos .info_direccion a:hover{
+    color: #00f400;
+    font-size: 18px;
+}
+.prefooter_contactos .top_dos{
+    padding-top: 50px;
+}
+.formularContacto .cnt {
+    background: #0064ff;
+    color: #fff;
+    border: 1px solid #0064ff;
+    padding: 10px;
+    width: 100%;
+}
+.formularContacto .cnt:hover{
+    background: #fff;
+    color: #0064ff;
+    border: 1px solid #0064ff;
+    padding: 10px;
+    width: 100%;
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+    .h_sec03 .autos {
+        height: 70px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  Home                                    */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .h_sec03 .autos {
+        height: 50px;
+    }
+    .h_sec04 .carro_mas {
+        width: 100%;
+        height: 150px;
+    }
+    .h_sec06 {
+        background: url(../img/home/banner_verde.jpg) left top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 280px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  renta-autos                              */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .h_sec03 .autos {
+        height: 50px;
+    }
+    .prefooter_contactos .titulo {
+        color: #fff;
+        font-size: 40px;
+        font-family: 'maduri_bold';
+    }
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+    }
+    .autos_mty_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  Home                                    */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-size: 15px;
+    }
+    .navbar-right li {
+        padding-right: 0px;
+    }
+    .fondo_formulario {
+        background: black;
+        width: 100%;
+        height: 600px;
+    }
+    .h_sec02 .titulo {
+        color: #5c5c5c;
+        font-size: 30px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec03 .autos {
+        height: 50px;
+    }
+    .h_sec03 .img_monterrey {
+        background: url(../img/home/cerro.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .h_sec03 .img_gdl {
+        background: url(../img/home/minerva.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .img_gdl .top {
+        padding-top: 100px;
+    }
+    .img_monterrey .top {
+        padding-top: 100px;
+    }
+    .h_sec04 .carro_mas {
+        width: 100%;
+        height: 100px;
+    }
+    .h_sec04 {
+        background: #e3e3e3;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .titulo_de_carros {
+        font-family: 'maduri_bold';
+        font-size: 20px;
+        color: #505050;
+        margin-left: 20px;
+    }
+    .h_sec05 .parrafo_slider {
+        margin-left: 10px;
+        font-size: 17px;
+    }
+    .bx-viewport{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 350px;
+    }
+    .h_sec06 .titulo {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'maduri_bold';
+    }
+    .line_text01 {
+        font-size: 15px;
+        color: #fff;
+        margin-top: -10px;
+    }
+    .line_text02 {
+        font-size: 15px;
+        color: #fff;
+    }
+    .line_text03 {
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+    }
+    .line_text03 a {
+        font-size: 15px;
+        color: #fff;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  renta-autos                             */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .renta_autos .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+    }
+    .renta_camionetas .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+    }
+    .renta_camionetas .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 25px;
+    }
+    .pregunta {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 27px;
+        padding-bottom: 30px;
+    }
+    .requisitos_sec02 .icon {
+        height: 100px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  servicios                               */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .servicios_sec2 .titulo {
+        color: #5c5c5c;
+        font-size: 30px;
+    }
+    .servicios_sec2 .topFlcha {
+        padding-top: 100px !important;
+    }
+    .servicios_sec2 .parrafoDeImagenes {
+        color: #5c5c5c;
+        font-size: 16px;
+        padding-top: 5%;
+    }
+    .secHeight2_movil{
+        display: none;
+    }
+    .prefooter_contactos .titulo {
+        color: #fff;
+        font-size: 40px;
+        font-family: 'maduri_bold';
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  renta-autos-gdl                         */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+    }
+    .autos_gdl_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 25px;
+    }
+    .titulo_carro {
+        color: #505050;
+        font-size: 25px;
+        font-family: 'maduri_bold';
+        margin-left: 50px;
+    }
+    .autos_mty_Sec03 .parrafoCarro {
+        margin-left: 10px;
+        width: 90%;
+        font-size: 15px;
+    }
+    .autos_mty_Sec03 .precio {
+        color: #0c6fff;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .autos_mty_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+    }
+    .autos_mty_Sec03 .titulo {
+        text-align: center;
+        font-size: 30px;
+        color: #5c5c5c;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .autos_mty_Sec02 .parrafo {
+        text-align: center;
+        font-size: 18px;
+    }
+    .autos_mty_Sec02 .parrafo1 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .autos_mty_Sec02 {
+        background: #f6faff;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  Home                                    */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .h_banner {
+        background: url(../img/home/banner.jpg) right top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1050px;
+    }
+    .h_banner .top {
+        padding-top: 100px;
+    }
+    .h_banner .titulo_verde {
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .h_banner .parrafo {
+        color: white;
+        font-size: 20px;
+    }
+    .top_form {
+        padding-top: 20px;
+    }
+    .fondo_formulario {
+        background: black;
+        width: 100%;
+        height: 700px;
+    }
+    .top_form .entrega {
+        color: #59ff12;
+        font-size: 18px;
+        font-family: 'maduri_bold';
+    }
+    .top_form .oficina {
+        color: white;
+        font-size: 16px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec02 {
+        padding-top: 10px;
+    }
+    .h_sec02 .titulo {
+        color: #5c5c5c;
+        font-size: 25px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec02 .parrafo {
+        color: #5c5c5c;
+        font-size: 15px;
+    }
+    .h_sec03 .autos {
+        height: 50px;
+    }
+    .h_sec03 .img_monterrey {
+        background: url(../img/home/cerro.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .h_sec03 .img_gdl {
+        background: url(../img/home/minerva.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .mostrar {
+        display: block;
+        background-color: rgba(29, 28, 28, 0.8)!important;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        color: white;
+        top: 0px;
+    }
+    .btn_cerrar {
+        background: transparent;
+        float: right;
+        position: absolute;
+        z-index: 2;
+        top: 5px;
+        margin-left: 0%;
+    }
+    .h_sec04 .carro_mas {
+        width: 100%;
+        height: 150px;
+    }
+    .h_sec04 .titulo {
+        text-align: center;
+        color: #505050;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec04 {
+        background: #e3e3e3;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+    .h_sec05 .titulo {
+        text-align: center;
+        color: #505050;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: 'maduri_bold';
+    }
+    .titulo_de_carros {
+        font-family: 'maduri_bold';
+        font-size: 16px;
+        color: #505050;
+        margin-left: 50px;
+    }
+    .h_sec05 .parrafo_slider {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .h_sec05 {
+        width: 100%;
+        background-size: cover;
+        height: 500px;
+    }
+    .bx-viewport{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 300px !important;
+    }
+    .h_sec06 .titulo {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec06 .button_contac {
+        background: white;
+        border: 1px solid white;
+        width: 100%;
+        font-size: 20px;
+        color: black;
+        padding-top: 10px;
+    }
+    footer ul {
+        list-style: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    footer ul li {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    footer {
+        background: #1c1c1c;
+        width: 100%;
+        background-size: cover;
+        height: 150px;
+    }
+    .line_footer .top {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .line_footer ul li {
+        font-size: 15px;
+        list-style: none;
+        color: white;
+    }
+    .line_text02 {
+        font-size: 14px;
+        color: #fff;
+    }
+    .line_text01 {
+        font-size: 15px;
+        color: #fff;
+        margin-top: -10px;
+    }
+    .navbar-default {
+        border-color: transparent;
+        background: #6d6a6a !important;
+    }
+    .line_text03 {
+        font-size: 15px;
+        color: #fff;
+        text-align: right;
+    }
+    .line_text03 a {
+        font-size: 15px;
+        color: #fff;
+    }
+    .line_footer {
+        background-size: cover;
+        background: black;
+        width: 100%;
+        height: 650px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  renta-auto                              */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .renta_autos .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .renta_autos .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .renta_autos {
+        background: url(../img/rentamty/banner3.jpg) right top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .subtituloParraf {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .renta_autos_sec02 .titulo {
+        color: #5c5c5c;
+        font-size: 30px;
+    }
+    .renta_autos_sec02 .check {
+        height: 20px;
+    }
+    .renta_autos_sec02 ul li {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #5c5c5c;
+        list-style: none;
+    }
+    .parrafDos {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .renta_autos_sec02 .tituloDods {
+        color: #5c5c5c;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas                          */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+
+    .renta_camionetas .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .renta_camionetas .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                requisitos                                */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .requisitos_banner .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .pregunta {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .requisitos_sec02 .tituloDods {
+        color: #5c5c5c;
+        font-size: 25px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .requisitos_sec02 .prrf {
+        padding-top: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .requisitos_sec02 .icon {
+        height: 100px;
+    }
+    .requisitos_sec02 .text_icon {
+        color: #5c5c5c;
+        text-align: center;
+        font-size: 15px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                servicios                                 */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .servicios_banner .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .servicios_banner {
+        background: url(../img/rentamty/banner6.jpg) center top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .servicios_banner .top {
+        padding-top: 200px;
+    }
+    .prrf_serv {
+        padding-top: 10px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .servicios_sec2 .titulo {
+        color: #5c5c5c;
+        font-size: 25px;
+    }
+    .servicios_sec2 .parrafoDeImagenes {
+        color: #5c5c5c;
+        font-size: 15px;
+        padding-top: 5%;
+    }
+    .secHeight2{
+        display: none;
+    }
+    .servicios_sec2 .secHeight2_movil {
+        padding-top: 50px;
+        height: 750px;
+    }
+    .servicios_sec2 .secHeight3 {
+        padding-top: 50px;
+        height: 650px;
+    }
+    .servicios_sec2 .secHeight {
+        height: 600px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                contactos                                 */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .prefooter_contactos .titulo {
+        color: #fff;
+        font-size: 30px;
+        font-family: 'maduri_bold';
+    }
+    .prefooter_contactos .top {
+        padding-top: 50px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-autos-monterrey                     */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_mty_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .autos_mty_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .autos_mty_Sec02 .parrafo {
+        text-align: center;
+        font-size: 18px;
+    }
+    .autos_mty_Sec02 {
+        background: #f6faff;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .autos_mty_Sec03 .titulo {
+        text-align: center;
+        font-size: 30px;
+        color: #5c5c5c;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .autos_mty_Sec03 .parrafoCarro {
+        margin-left: 10px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .autos_mty_Sec03 .inforTextos {
+        font-size: 22px;
+        padding-top: 0px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas-monterrey                */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_mty_Sec01 {
+        background: url(../img/rentamty/banner1.jpg) left top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .autos_mty_Sec02 .parrafo1 {
+        text-align: center;
+        font-size: 18px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-autos-gdl                           */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .autos_gdl_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .sec04_fotos .titulo {
+        color: #4d5054;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas-guadalajara              */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    .autos_gdl_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  Home                                    */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .h_banner {
+        background: url(../img/home/banner.jpg) right top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1050px;
+    }
+    .h_banner .top {
+        padding-top: 100px;
+    }
+    .h_banner .titulo_verde {
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .h_banner .parrafo {
+        color: white;
+        font-size: 20px;
+    }
+    .top_form {
+        padding-top: 20px;
+    }
+    .fondo_formulario {
+        background: black;
+        width: 100%;
+        height: 700px;
+    }
+    .top_form .entrega {
+        color: #59ff12;
+        font-size: 18px;
+        font-family: 'maduri_bold';
+    }
+    .top_form .oficina {
+        color: white;
+        font-size: 16px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec02 {
+        padding-top: 10px;
+    }
+    .h_sec02 .titulo {
+        color: #5c5c5c;
+        font-size: 25px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec02 .parrafo {
+        color: #5c5c5c;
+        font-size: 15px;
+    }
+    .h_sec03 .autos {
+        height: 50px;
+    }
+    .h_sec03 .img_monterrey {
+        background: url(../img/home/cerro.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .h_sec03 .img_gdl {
+        background: url(../img/home/minerva.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .mostrar {
+        display: block;
+        background-color: rgba(29, 28, 28, 0.8)!important;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        color: white;
+        top: 0px;
+    }
+    .btn_cerrar {
+        background: transparent;
+        float: right;
+        position: absolute;
+        z-index: 2;
+        top: 5px;
+        margin-left: 0%;
+    }
+    .h_sec04 .carro_mas {
+        width: 100%;
+        height: 150px;
+    }
+    .h_sec04 .titulo {
+        text-align: center;
+        color: #505050;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec04 {
+        background: #e3e3e3;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+    .h_sec05 .titulo {
+        text-align: center;
+        color: #505050;
+        font-size: 30px;
+        padding-top: 30px;
+        font-family: 'maduri_bold';
+    }
+    .titulo_de_carros {
+        font-family: 'maduri_bold';
+        font-size: 16px;
+        color: #505050;
+        margin-left: 50px;
+    }
+    .h_sec05 .parrafo_slider {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .h_sec05 {
+        width: 100%;
+        background-size: cover;
+        height: 500px;
+    }
+    .bx-viewport{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 300px !important;
+    }
+    .h_sec06 .titulo {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'maduri_bold';
+    }
+    .h_sec06 .button_contac {
+        background: white;
+        border: 1px solid white;
+        width: 100%;
+        font-size: 20px;
+        color: black;
+        padding-top: 10px;
+    }
+    footer ul {
+        list-style: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    footer ul li {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    footer {
+        background: #1c1c1c;
+        width: 100%;
+        background-size: cover;
+        height: 150px;
+    }
+    .line_footer .top {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .line_footer ul li {
+        font-size: 15px;
+        list-style: none;
+        color: white;
+    }
+    .line_text02 {
+        font-size: 14px;
+        color: #fff;
+    }
+    .line_text01 {
+        font-size: 15px;
+        color: #fff;
+        margin-top: -10px;
+    }
+    .navbar-default {
+        border-color: transparent;
+        background: #6d6a6a !important;
+    }
+    .line_text03 {
+        font-size: 15px;
+        color: #fff;
+        text-align: right;
+    }
+    .line_text03 a {
+        font-size: 15px;
+        color: #fff;
+    }
+    .line_footer {
+        background-size: cover;
+        background: black;
+        width: 100%;
+        height: 650px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                  renta-auto                              */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .renta_autos .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .renta_autos .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .renta_autos {
+        background: url(../img/rentamty/banner3.jpg) right top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .subtituloParraf {
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .renta_autos_sec02 .titulo {
+        color: #5c5c5c;
+        font-size: 30px;
+    }
+    .renta_autos_sec02 .check {
+        height: 20px;
+    }
+    .renta_autos_sec02 ul li {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #5c5c5c;
+        list-style: none;
+    }
+    .parrafDos {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .renta_autos_sec02 .tituloDods {
+        color: #5c5c5c;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas                          */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+
+    .renta_camionetas .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .renta_camionetas .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                requisitos                                */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .requisitos_banner .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .pregunta {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .requisitos_sec02 .tituloDods {
+        color: #5c5c5c;
+        font-size: 25px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .requisitos_sec02 .prrf {
+        padding-top: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .requisitos_sec02 .icon {
+        height: 100px;
+    }
+    .requisitos_sec02 .text_icon {
+        color: #5c5c5c;
+        text-align: center;
+        font-size: 15px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                servicios                                 */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .servicios_banner .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .servicios_banner {
+        background: url(../img/rentamty/banner6.jpg) center top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+    .servicios_banner .top {
+        padding-top: 200px;
+    }
+    .prrf_serv {
+        padding-top: 10px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .servicios_sec2 .titulo {
+        color: #5c5c5c;
+        font-size: 25px;
+    }
+    .servicios_sec2 .parrafoDeImagenes {
+        color: #5c5c5c;
+        font-size: 15px;
+        padding-top: 5%;
+    }
+    .secHeight2{
+        display: none;
+    }
+    .servicios_sec2 .secHeight2_movil {
+        padding-top: 50px;
+        height: 750px;
+    }
+    .servicios_sec2 .secHeight3 {
+        padding-top: 50px;
+        height: 650px;
+    }
+    .servicios_sec2 .secHeight {
+        height: 600px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                contactos                                 */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .prefooter_contactos .titulo {
+        color: #fff;
+        font-size: 30px;
+        font-family: 'maduri_bold';
+    }
+    .prefooter_contactos .top {
+        padding-top: 50px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-autos-monterrey                     */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_mty_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .autos_mty_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .autos_mty_Sec02 .parrafo {
+        text-align: center;
+        font-size: 18px;
+    }
+    .autos_mty_Sec02 {
+        background: #f6faff;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .autos_mty_Sec03 .titulo {
+        text-align: center;
+        font-size: 30px;
+        color: #5c5c5c;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .autos_mty_Sec03 .parrafoCarro {
+        margin-left: 10px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .autos_mty_Sec03 .inforTextos {
+        font-size: 22px;
+        padding-top: 0px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas-monterrey                */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_mty_Sec01 {
+        background: url(../img/rentamty/banner1.jpg) left top no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .autos_mty_Sec02 .parrafo1 {
+        text-align: center;
+        font-size: 18px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-autos-gdl                           */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .autos_gdl_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .sec04_fotos .titulo {
+        color: #4d5054;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 40px;
+    }
+    /* *-*-*-*-*-*-*-*-*-*-*-*-**-*-**-*-*--*-*-*-*-*-*-*-*-*-*-*/
+    /*                renta-camionetas-guadalajara              */
+    /* *-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-**/
+    .autos_gdl_Sec01 .titulo {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    .autos_gdl_Sec01 .subTitulo {
+        text-align: center;
+        color: #59ff12;
+        font-size: 20px;
+    }
+    .secHeight2_movil{
+        display: block;
+    }
+}
